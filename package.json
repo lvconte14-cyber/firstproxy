@@ -1,0 +1,19 @@
+{
+  "name": "firstproxy",
+  "version": "1.0.0",
+  "description": "A working HTTP proxy for Chromebook",
+  "main": "proxy.js",
+  "bin": {
+    "firstproxy": "proxy.js"
+  },
+  "scripts": {
+    "start": "node proxy.js",
+    "dev": "PORT=8080 node proxy.js"
+  },
+  "keywords": ["proxy", "chromebook", "http"],
+  "author": "lvconte14-cyber",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
